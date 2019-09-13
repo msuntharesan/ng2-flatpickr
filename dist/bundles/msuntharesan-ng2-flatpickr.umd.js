@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/forms'), require('@angular/common')) :
-    typeof define === 'function' && define.amd ? define('ng2-flatpickr', ['exports', '@angular/core', '@angular/forms', '@angular/common'], factory) :
-    (global = global || self, factory(global['ng2-flatpickr'] = {}, global.ng.core, global.ng.forms, global.ng.common));
+    typeof define === 'function' && define.amd ? define('@msuntharesan/ng2-flatpickr', ['exports', '@angular/core', '@angular/forms', '@angular/common'], factory) :
+    (global = global || self, factory((global.msuntharesan = global.msuntharesan || {}, global.msuntharesan['ng2-flatpickr'] = {}), global.ng.core, global.ng.forms, global.ng.common));
 }(this, function (exports, core, forms, common) { 'use strict';
 
     /*! *****************************************************************************
@@ -724,4 +724,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
-//# sourceMappingURL=ng2-flatpickr.umd.js.map
+//# sourceMappingURL=msuntharesan-ng2-flatpickr.umd.js.map

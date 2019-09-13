@@ -513,4 +513,4 @@ Ng2FlatpickrModule = __decorate([
  */
 
 export { Ng2FlatpickrComponent, Ng2FlatpickrDirective, Ng2FlatpickrModule };
-//# sourceMappingURL=ng2-flatpickr.js.map
+//# sourceMappingURL=msuntharesan-ng2-flatpickr.js.map

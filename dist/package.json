@@ -1,8 +1,8 @@
 {
-  "name": "ng2-flatpickr",
+  "name": "@msuntharesan/ng2-flatpickr",
   "version": "8.0.2",
   "description": "Angular 2+ wrapper for flatpickr",
-  "main": "bundles/ng2-flatpickr.umd.js",
+  "main": "bundles/msuntharesan-ng2-flatpickr.umd.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mezoistvan/ng2-flatpickr.git"
@@ -33,13 +33,13 @@
   "dependencies": {
     "tslib": "^1.9.0"
   },
-  "module": "fesm5/ng2-flatpickr.js",
-  "es2015": "fesm2015/ng2-flatpickr.js",
-  "esm5": "esm5/ng2-flatpickr.js",
-  "esm2015": "esm2015/ng2-flatpickr.js",
-  "fesm5": "fesm5/ng2-flatpickr.js",
-  "fesm2015": "fesm2015/ng2-flatpickr.js",
-  "typings": "ng2-flatpickr.d.ts",
-  "metadata": "ng2-flatpickr.metadata.json",
+  "module": "fesm5/msuntharesan-ng2-flatpickr.js",
+  "es2015": "fesm2015/msuntharesan-ng2-flatpickr.js",
+  "esm5": "esm5/msuntharesan-ng2-flatpickr.js",
+  "esm2015": "esm2015/msuntharesan-ng2-flatpickr.js",
+  "fesm5": "fesm5/msuntharesan-ng2-flatpickr.js",
+  "fesm2015": "fesm2015/msuntharesan-ng2-flatpickr.js",
+  "typings": "msuntharesan-ng2-flatpickr.d.ts",
+  "metadata": "msuntharesan-ng2-flatpickr.metadata.json",
   "sideEffects": false
 }
