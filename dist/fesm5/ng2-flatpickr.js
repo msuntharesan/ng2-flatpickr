@@ -1,5 +1,5 @@
 import { __decorate, __metadata } from 'tslib';
-import { ViewChild, Input, Component, forwardRef, Output, EventEmitter, HostListener, Directive, ElementRef, Renderer, NgModule } from '@angular/core';
+import { ViewChild, Input, Component, forwardRef, EventEmitter, Output, HostListener, Directive, ElementRef, Renderer, NgModule } from '@angular/core';
 import { NG_VALUE_ACCESSOR, ControlContainer, NgControl } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
@@ -218,10 +218,10 @@ var Ng2FlatpickrDirective = /** @class */ (function () {
             mode: this.getOption('mode'),
             nextArrow: this.getOption('nextArrow'),
             noCalendar: this.getOption('noCalendar'),
-            onChange: this.eventOnChange,
-            onClose: this.eventOnClose,
-            onOpen: this.eventOnOpen,
-            onReady: this.eventOnReady,
+            onChange: this.eventOnChange.bind(this),
+            onClose: this.eventOnClose.bind(this),
+            onOpen: this.eventOnOpen.bind(this),
+            onReady: this.eventOnReady.bind(this),
             parseDate: this.getOption('parseDate'),
             prevArrow: this.getOption('prevArrow'),
             shorthandCurrentMonth: this.getOption('shorthandCurrentMonth'),
