@@ -1,6 +1,6 @@
 {
   "name": "@msuntharesan/ng2-flatpickr",
-  "version": "8.0.2",
+  "version": "8.0.5",
   "description": "Angular 2+ wrapper for flatpickr",
   "main": "bundles/msuntharesan-ng2-flatpickr.umd.js",
   "repository": {
